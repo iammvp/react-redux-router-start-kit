@@ -14,7 +14,9 @@ const middleware = [ thunk ];
 
 //create Store
 const store = createStore(rootReducer,applyMiddleware(...middleware));
+console.log(browserHistory);
 const history = syncHistoryWithStore(browserHistory,store);
+
 //exports
 export default store;
 

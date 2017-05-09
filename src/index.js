@@ -6,6 +6,6 @@ import  router  from './router/router'
 
 
 // Import css
-
+import css from './styles/index.scss'
 
 render(router,document.getElementById('root'));
